@@ -1,0 +1,123 @@
+@font-face {
+    font-family: RobotoLightItalic;
+    src: url(fonts/Roboto-LightItalic.ttf) format('truetype')
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+    font-family: serif;
+}
+
+header{
+    background-image: url(./imagens/Paris.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+ 
+
+}
+
+.cab h1 {  
+    display: inline;
+    position: center;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    font-size: 40px;
+}
+
+.cab a {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid white;
+    background-color:rgba(255, 255, 255, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: white;
+    margin: 10px 10px 10px 10px;
+}
+
+.cab a:hover{
+    background-color:rgba(0,0,0,.7);
+}
+
+header h2 {
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 2px 3px black;
+    text-align: center;
+}
+
+main {
+    width: 90%;
+    margin-top: 20px;
+    padding: 40px;
+    height: 800px;
+    background-color: white;
+    margin-left: 2%;
+
+ }
+
+.cards {
+    float: left;
+    width: 33%;
+    height: auto;
+    margin-left: 2px;
+    margin-bottom: 0px;   
+    border-radius: px;
+}
+
+.cards h2 {
+    background-color: rgba(0,0,0,.8);
+    padding: 10px;
+    display: block  ;
+    margin: 0%;
+    margin-top: -3%;
+    color:  #FFF;
+    text-align: center;   
+    
+}
+
+.imagem {
+   width: 100%;
+   height:252.891px;
+}
+
+.main .h1 {
+    margin: 30px 0px 10px 45%;
+    padding-top: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;   
+}
+
+.cont ul {
+    margin: auto;
+    text-align: left ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.first {
+    margin: auto;
+    text-align: left ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px; 
+    padding-top: 400px; 
+}
+.cont p {
+    margin: auto;
+    text-align: left ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+footer{
+    flex: 1;
+    background-color: #1F2937;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    padding: 3px;
+}

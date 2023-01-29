@@ -1,0 +1,164 @@
+@font-face {
+    font-family: RobotoLightItalic;
+    src: url(fonts/Roboto-LightItalic.ttf) format('truetype')
+}
+
+* {
+    margin: 0%;
+}
+
+.hero {
+    background-color: #1F2937;
+    height: auto;
+    display: block;
+    width: 100%;
+}
+
+
+.middle {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+}
+
+.middle h4{
+    margin-top: 40px;
+    font-size: 30px;
+
+}
+
+.middle .imgStyle {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-bottom: 150px;
+}
+
+.middle .quoteStyle {
+    background-color: #E5E7EB;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    font-family: 'RobotoLightItalic', sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+.actionStyle {
+    display: inline-block; 
+    background-color: #3882F6; 
+    justify-content: space-between; 
+    align-content: center;
+    width: 100%;   
+    text-align: center;
+    height: auto;
+}
+
+.actionStyle h1 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    padding-top: 30px;
+}
+
+.actionStyle p {
+    font-size: 12px;
+    text-align: center;
+
+}
+
+footer {
+    flex: 1;
+    background-color: #1F2937;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer p {
+    padding-bottom: 20px;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    flex: 1;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.button {
+    flex: 2;
+    background-color: rgba(62, 47, 47, 0.7);
+}
+
+.tablink {
+    background-color: #1F2937;
+    color: white;
+    float: left;
+    border: none;
+    cursor: pointer;
+    padding: 19px 19px;
+    font-size: 17px;
+    width: 33%;
+}
+
+.mainTextStyle {
+    display: flex;
+    align-items: center;
+    justify-content: "space-between";
+}
+
+.mainTextStyle .img {
+    margin: 50px 50px 50px 50px;
+    display: auto;
+}
+
+.mainTextStyle h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    text-align: center;
+    margin-top: 15px;   
+}
+
+.mainTextStyle p {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.mainTextStyle .buttonStyle{
+   padding: auto;
+   float: left  ;
+   margin-top: 30px;
+}
+
+.buttonStyle {
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0px 10px 10px 0px;
+    float: right;
+}
